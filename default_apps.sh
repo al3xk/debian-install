@@ -8,7 +8,7 @@ sudo apt upgrade -y
 xdg-user-dirs-update
 
 # basic apps
-sudo apt install curl wget htop ncdu kitty tldr neofetch timeshift synaptic build-essential make gcc unzip gedit -y
+sudo apt install curl vim wget htop ncdu kitty tldr neofetch timeshift build-essential make gcc unzip -y
 
 # additional apps
-sudo apt install gnome-software autojump 
+sudo apt install gnome-software autojump synaptic gedit
