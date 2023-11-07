@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Build prerequisites
-sudo apt install ninja-build gettext cmake unzip curl
+sudo apt install cmake
 
 # get repo
 git clone https://github.com/neovim/neovim
