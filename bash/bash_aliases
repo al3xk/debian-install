@@ -1,0 +1,2 @@
+alias chrome='flatpak run com.google.Chrome'
+alias chromium='flatpak run org.chromium.Chromium'
