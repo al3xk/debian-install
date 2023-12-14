@@ -11,4 +11,4 @@ xdg-user-dirs-update
 sudo apt install curl vim wget htop ncdu kitty tldr neofetch timeshift build-essential make gcc unzip exa -y
 
 # additional apps
-sudo apt install gnome-software autojump synaptic gedit
+sudo apt install autojump synaptic gedit
