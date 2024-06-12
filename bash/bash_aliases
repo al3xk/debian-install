@@ -36,6 +36,7 @@ alias ps='ps -axuf'
 
 # network connections
 alias openports='ss -tulpe'
+alias extip='curl -s ifconfig.me'
 
 # Flatpak
 alias chrome='flatpak run com.google.Chrome'
