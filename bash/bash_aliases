@@ -58,6 +58,9 @@ alias untar='tar -xvf'
 alias unbz2='tar -xvjf'
 alias ungz='tar -xvzf'
 
+# systeminfos
+alias os='cat /etc/os-release'
+
 # Flatpak
 alias chrome='flatpak run com.google.Chrome'
 alias chromium='flatpak run org.chromium.Chromium'
