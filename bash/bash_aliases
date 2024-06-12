@@ -34,6 +34,9 @@ alias mkdir='mkdir -p'
 alias cls='clear'
 alias ps='ps -axuf'
 
+# network connections
+alias openports='ss -tulpe'
+
 # Flatpak
 alias chrome='flatpak run com.google.Chrome'
 alias chromium='flatpak run org.chromium.Chromium'
