@@ -1,3 +1,8 @@
+# undefine all aliases:  unalias -a
+# undefine single alias: unalias <ALIAS>
+# check if an alias is available: type <ALIAS>
+# source .bashrc to load defined aliases again, aliases are not removed
+
 # directory aliases
 alias home='cd ~'
 alias cd..='cd ..'
@@ -7,20 +12,27 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
 # search running processes
-alias ps='ps aux | grep '
+alias p='ps aux | grep'
 
 # search files in the current folder
 alias f='find . | grep '
-
-# text search
-# grep -Irl <TEXT> <DIR>
-alias fts='grep -Irl '
+alias fts='grep -Irl'
 
 # list commands
 alias la='ls -Alh'  # show hidden files
 alias lz='ls -lSh'  # sort by size
 alias lt='ls -lth'  # sort by time
 
+# tail
+alias tail='tail -f -n 40'
+
+# modified base commands
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='trash -v'
+alias mkdir='mkdir -p'
+alias cls='clear'
+alias ps='ps -axuf'
 
 # Flatpak
 alias chrome='flatpak run com.google.Chrome'
