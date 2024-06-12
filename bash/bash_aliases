@@ -1,2 +1,27 @@
+# directory aliases
+alias home='cd ~'
+alias cd..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+# search running processes
+alias ps='ps aux | grep '
+
+# search files in the current folder
+alias f='find . | grep '
+
+# text search
+# grep -Irl <TEXT> <DIR>
+alias fts='grep -Irl '
+
+# list commands
+alias la='ls -Alh'  # show hidden files
+alias lz='ls -lSh'  # sort by size
+alias lt='ls -lth'  # sort by time
+
+
+# Flatpak
 alias chrome='flatpak run com.google.Chrome'
 alias chromium='flatpak run org.chromium.Chromium'
