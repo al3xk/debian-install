@@ -38,6 +38,14 @@ alias ps='ps -axuf'
 alias openports='ss -tulpe'
 alias extip='curl -s ifconfig.me'
 
+# archives
+alias mktar='tar -cvf'
+alias mkbz2='tar -cvjf'
+alias mkgz='tar -cvzf'
+alias untar='tar -xvf'
+alias unbz2='tar -xvjf'
+alias ungz='tar -xvzf'
+
 # Flatpak
 alias chrome='flatpak run com.google.Chrome'
 alias chromium='flatpak run org.chromium.Chromium'
