@@ -1,3 +1,3 @@
-# Debian install scripts
+# Debian install
 
-The scripts can be run after a minimal installation
+post installation scripts
