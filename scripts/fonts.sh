@@ -44,7 +44,7 @@ do
     fi
     
     echo "Installing font: $font"
-    wget -q --show-progress "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/$font.zip" -P /tmp
+    wget -q --show-progress "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/$font.zip" -P /tmp
     if [ $? -ne 0 ]; then
         echo "Failed to download font: $font"
         continue
