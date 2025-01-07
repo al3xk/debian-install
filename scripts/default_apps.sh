@@ -8,7 +8,10 @@ sudo apt upgrade -y
 # xdg-user-dirs-update
 
 # basic apps
-sudo apt install curl vim wget htop ncdu kitty tldr neofetch timeshift build-essential make gcc unzip -y
+sudo apt install curl vim wget htop ncdu kitty tldr neofetch build-essential make gcc unzip micro git -y
+
+# fonts and themes
+sudo apt install fonts-recommended fonts-font-awesome fonts-terminus papirus-icon-theme -y
 
 # additional apps
 sudo apt install autojump synaptic gedit
