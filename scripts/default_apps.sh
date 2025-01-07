@@ -11,7 +11,7 @@ sudo apt upgrade -y
 sudo apt install curl vim wget htop ncdu kitty tldr neofetch build-essential make gcc unzip micro git -y
 
 # fonts and themes
-sudo apt install fonts-recommended fonts-font-awesome fonts-terminus papirus-icon-theme -y
+sudo apt install fonts-recommended fonts-font-awesome fonts-terminus arc-theme papirus-icon-theme -y
 
 # additional apps
 sudo apt install autojump synaptic gedit
