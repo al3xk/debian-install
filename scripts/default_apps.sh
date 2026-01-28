@@ -12,6 +12,22 @@ sudo apt install curl vim wget htop ncdu kitty tldr neofetch build-essential mak
 
 # fonts and themes
 sudo apt install fonts-recommended fonts-font-awesome fonts-terminus arc-theme papirus-icon-theme -y
+sudo apt install \
+  fonts-dejavu \
+  fonts-liberation \
+  fonts-noto-core \
+  fonts-noto-color-emoji
+
+  sudo apt install \
+  fonts-open-sans \
+  fonts-roboto
+
+# contrib muss aktiv sein
+sudo apt install ttf-mscorefonts-installer
+
+fc-cache -f -v
+
+
 
 # additional apps
 sudo apt install autojump synaptic gedit
